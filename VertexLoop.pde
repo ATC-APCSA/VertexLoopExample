@@ -34,9 +34,11 @@ void draw(){
   
   popMatrix();
   
-  translate(i+5,i+5); // shifts the position of the new shapes so they stack on each other aligned in the center
+  translate(i+5,i+5); 
+/*shifts the position of the new shapes so they stack on each other aligned in the center, 
+this will probably need to be adjusted when you make your own shape*/
 
-  print(i);
+  print(i); // show how the value of i changes in the console. 
 }
   
 }
